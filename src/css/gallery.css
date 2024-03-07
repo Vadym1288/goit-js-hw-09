@@ -1,0 +1,42 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  .gallery-image {
+    width: 360px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .gallery-image:hover {
+    transform: scale(1.025);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .simple-lightbox {
+    background: rgba(46, 47, 66, 0.8);
+  }
+  
+  .sl-wrapper .sl-close {
+    height: 32px;
+    width: 32px;
+    color: #ffffff;
+  }
+  
+  .sl-wrapper .sl-navigation button {
+    height: 24px;
+    width: 24px;
+    color: #ffffff;
+  }
+  
+  .sl-wrapper .sl-navigation button:hover {
+    color: #d4d4d4;
+  }
+  
+  .sl-wrapper .sl-counter {
+    color: #ffffff;
+  }
